@@ -62,7 +62,28 @@
         <div class="container">
             <div class="columns is-8 is-variable">
                 <div class="column is-7-tablet">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae totam corrupti unde, ex quia quod officiis accusamus cum delectus ipsum ratione blanditiis, labore, aliquam porro debitis numquam. Possimus, architecto amet.
+                    <!-- tabbed content -->
+                    <div class="tabs is-boxed">
+                        <ul>
+                            <li class="is-active" data-target="product-details">
+                                <a>Product Details</a>
+                            </li>
+                            <li data-target="delivery-information">
+                                <a>Delivery Information</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="px-2" id="tab-content">
+                        <div id="product-details">
+                            <h3 class="is-size-5 title">Product Details</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, vitae molestias ullam eum debitis nam rem atque quo quia porro obcaecati animi commodi ipsum! Ab id commodi tempore dicta nulla?</p>
+                        </div>
+                        <div id="delivery-information" class="is-hidden">
+                            <h3 class="is-size-5 title">Delivery Information</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, vitae molestias ullam eum debitis nam rem atque quo quia porro obcaecati animi commodi ipsum! Ab id commodi tempore dicta nulla?</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="column is-5-tablet">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Id saepe eius vitae impedit, ut at corrupti similique quo sapiente nemo? Recusandae iusto officia reprehenderit officiis quibusdam, quidem sint odio illo!
